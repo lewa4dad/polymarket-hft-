@@ -1,0 +1,22 @@
+{
+  "name": "polymarket-hft-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@polymarket/clob-client": "^4.9.0",
+    "dotenv": "^16.3.1",
+    "ws": "^8.14.2",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "@types/ws": "^8.5.8",
+    "tsx": "^4.0.0",
+    "typescript": "^5.2.2"
+  }
+}

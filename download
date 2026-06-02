@@ -1,0 +1,16 @@
+# Wallet Configuration
+PRIVATE_KEY=your_polygon_wallet_private_key_here
+
+# Polymarket API Credentials (get from https://polymarket.com/profile/api)
+CLOB_API_KEY=your_api_key_here
+CLOB_API_SECRET=your_api_secret_here
+CLOB_API_PASSPHRASE=your_passphrase_here
+
+# Network Configuration
+CHAIN_ID=137
+CLOB_HOST=https://clob.polymarket.com
+
+# Bot Settings
+TRADE_SIZE=10
+MAX_SPREAD=0.02
+UPDATE_INTERVAL_MS=1000
